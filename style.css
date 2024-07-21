@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+margin: 0;
+    padding: 0;
+}
+
+.container {
+    border: 10px solid red;
+    background-color: rgb(227, 222, 245);
+}
+
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;;
+}
+
+.img-gandhi img{height:320px;
+    width:300px;
+    border-radius:150px;
+}
+
+.heading1{align-self: flex-end;}
+.heading1 h1{text-transform: uppercase;
+font-weight: bolder;}
+
+.heading2 h1{
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 20px;
+}
+.about p{letter-spacing: 2px;
+font-size: 20px;
+line-height: 40px;}
+.about{padding-bottom: 35px;;}
+.heading2 h4{
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.about-bio ul{padding-left:200px;}
+.about-bio ul li{line-height: 30px;
+font-size: 17px;}
+
+.about-bio{padding-bottom: 20px;}
+
+footer p{text-align: end;
+font-size:20px;}
+
+
+@media only screen and (max-width:450px){
+    .section1{flex-direction:column;}
+    .img-gandhi img{height:180px;
+        width:180px;
+        border-radius:100px;
+    }
+    .about-bio ul{padding-left:20px;}
+}
